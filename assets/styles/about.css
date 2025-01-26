@@ -1,0 +1,122 @@
+
+/*---------About---------*/
+#About{
+  background-color: #e0e0e0f1;
+  height: 80vh;
+  padding-top: 80px;
+  padding-left: 80px;
+
+}
+
+/* .about p{
+  animation:appearXrt ease-out;
+  animation-timeline: view();
+  animation-range: entry 5% cover 50%;
+} */
+/* .about h1{
+  animation:appearXrt ease-out;
+  animation-timeline: view();
+  animation-range: entry 5% cover 60%;
+} */
+
+div.circle{
+  display:inline;
+  border: 4px solid #ff0000;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+.h2{
+  font-family: heading;
+  padding-left: 35px;
+  color: #008cff;
+  font-size: 40px;
+}
+div.sml-circle{
+  display:inline-flex;
+  margin-right: 10px;
+  border: 2px solid #003cff;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+
+}
+div.Born{
+  display: block;
+  font-size: 30px;
+  padding-left: 80px;
+}
+
+div.Studies{
+  font-size: 30px;
+  padding-left: 80px;
+}
+div.about{
+  font-size: 30px;
+  padding-left: 80px;
+}
+h6{
+  font-family: Para;
+  line-height: 25px;
+  color: rgb(5, 5, 5);
+  text-wrap: wrap;
+}
+h5{
+  color: rgb(0, 0, 0);
+  text-wrap: wrap;
+}
+@media(max-width:500px){
+  /*---------About---------*/
+  #About{
+    height: 80vh;
+    padding-top: 30px;
+    padding-left: 30px;
+  
+  }
+  div.circle{
+    display:inline;
+    border: 4px solid #ff0000;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+  }
+  .h2{
+    font-family: heading;
+    padding-left: 25px;
+    color: #008cff;
+    font-size: 30px;
+  }
+  div.sml-circle{
+    display:inline-flex;
+    margin-right: 10px;
+    border: 2px solid #003cff;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+  
+  }
+  div.Born{
+    display: block;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
+  div.Studies{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  div.about{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  h6{
+    font-family: Para;
+    line-height: 20px;
+    color: rgb(5, 5, 5);
+    text-wrap: wrap;
+  }
+  h5{
+    color: rgb(0, 0, 0);
+    text-wrap: wrap;
+  }
+}
