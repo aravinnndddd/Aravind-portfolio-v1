@@ -249,7 +249,8 @@
   }
   .skill-3{
     transition: 1.5s ease;
-    filter:drop-shadow(4px 0px 10px rgb(255, 102, 0));
+    background-color: rgb(10, 139, 6);
+    filter:drop-shadow(4px 0px 10px rgb(88, 245, 73));
     animation: 1s appearskill ease;
     width: 10%;
   }
