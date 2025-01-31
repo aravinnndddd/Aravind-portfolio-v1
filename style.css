@@ -25,7 +25,7 @@ body{
     overflow-y: scroll;
   
 } 
-button{
+.bbtnn{
   border-radius: 8px;
   filter: drop-shadow(0px 0px 8px black);
   margin: 10px;
