@@ -159,22 +159,33 @@
       <img class='img1 star-12' src="assets/Images/wtStar.png"/>
 
     </div>
-	<!--BUY ME A COFFEE-->
+<!--BUY ME A COFFEE-->
 <div id="buyme">
 <div class="card">
 	<h2 class="card-name">RuPay</h2>
-	<img class="cardpic" src="assets/Images/card.png">
+	<img class="cardpic" src="/assets/Images/card.png">
 	<h3>BUY ME A COFFEE</h3>
 	
-	<p class="upi-id">UPI ID:<p id="upid">aravinnndddd73@okaxis &nbsp<button class="copy-btn" onclick="copyText()">Copy UPI ID</button></p></p>
+	<p class="upi-id">UPI ID:<p id="upid">aravinnndddd73@okaxis</p><button class="copy-btn" onclick="copyText()">Copy UPI ID</button></p>
 	
 	<h1 class="card-holder-name">
 		Aravind P
 	</h1>
 	
-	
+	<script>
+	function copyText() {
+		const text = document.getElementById("upid").innerText; // Get text from the <p> element
+		navigator.clipboard.writeText(text).then(() => {
+				alert("Text copied to clipboard: " + text);
+		}).catch(err => {
+				alert("Failed to copy text: " + err);
+		});
+}
+	</script>
 </div>
 </div>
+
+
 <script src="assets/Script/script.js"></script>
 <script>
 	function copyText() {
