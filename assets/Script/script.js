@@ -4,11 +4,7 @@ $("a").click(function(){
    var pageId = $(this).attr("data-page");
   $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
     });
-    function EnterName(){
-      let userName =prompt("Enter your name to see Magic");
-              if (userName != null) {
-                  document.getElementById("name-add").innerHTML = `${userName.charAt(0).toUpperCase()+ userName.slice(1).toLowerCase()}, `;
-  }
+  
     }
 
 // Navbar scroll events
