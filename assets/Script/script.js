@@ -1,11 +1,17 @@
-// Enter name
+$(document).ready(function () {
+    $("a").click(function (event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        var pageId = $(this).attr("data-page");
 
-$("a").click(function(){
-   var pageId = $(this).attr("data-page");
-  $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
+        // Ensure the target element exists before scrolling
+        if ($("#" + pageId).length) {
+            $("html, body").animate(
+                { scrollTop: $("#" + pageId).offset().top },
+                1000
+            );
+        }
     });
-  
-    }
+});
 
 // Navbar scroll events
 
