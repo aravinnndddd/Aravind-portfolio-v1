@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-    $("a").click(function (event) {
+    $(".block2").click(function (event) {
         event.preventDefault(); // Prevent default anchor behavior
         var pageId = $(this).attr("data-page");
 
